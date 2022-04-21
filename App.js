@@ -111,7 +111,7 @@ const App = () => {
         <Image style={{ width: 250, height: 60}} source={{ uri: "https://devblogs.microsoft.com/xamarin/wp-content/uploads/sites/44/2019/10/AppCenter_Logo.png"}} />
       </View>
       <View style={{justifyContent: 'center', alignItems: 'center', marginTop: 30}}>
-        <Text style={{ fontSize: 18, fontWeight: "bold"}}>App Center Version : 1.0 (1)</Text>
+        <Text style={{ fontSize: 18, fontWeight: "bold"}}>App Stroe Version : 1.0 (1)</Text>
       </View>
       <View style={{justifyContent: 'center', alignItems: 'center', marginTop: 30}}>
         <Text style={{ fontSize: 18, fontWeight: "bold"}}>TestFlight Upload: Yes</Text>
