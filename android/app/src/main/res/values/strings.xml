@@ -2,7 +2,4 @@
 	<string name="app_name">
 		RnAppCenter
 	</string>
-	<string moduleConfig="true" name="CodePushDeploymentKey">
-		_ciLkroQsmo3RqutxTkLkba29UZp9qTSsyQQ-
-	</string>
 </resources>

@@ -18,8 +18,8 @@ const codePushVersion = {
   'ios-test-variant-one': 'UVMEGI3ERLWZ6RCMH3xACllVYc-fUYMvl6r1q',
   'ios-Staging': 'Yf5XtYTLNxIH0n54fWcJUdDI8j7_Ub0YQRD_E',
   'ios-Production': '0rUrP1WJanW1mXkg9WMqZ-AOxbyPD2HEd1CGK',
-  'android-Staging': 'rw_GyQFoqWsLLXbgHRuo6DBewlN0IVXudnoeW',
-  'android-Production': '_ciLkroQsmo3RqutxTkLkba29UZp9qTSsyQQ-',
+  'android-Staging': '_ciLkroQsmo3RqutxTkLkba29UZp9qTSsyQQ-',
+  'android-Production': 'rw_GyQFoqWsLLXbgHRuo6DBewlN0IVXudnoeW',
 };
 
 let codePushOptions = {checkFrequency: codePush.CheckFrequency.MANUAL};
@@ -30,7 +30,7 @@ const App = () => {
   useEffect(() => {
     codePush.sync(
       {
-        // deploymentKey: codePushVersion['android-Staging'],
+        deploymentKey: codePushVersion['android-Staging'],
         updateDialog: true,
         installMode: codePush.InstallMode.IMMEDIATE,
       },
